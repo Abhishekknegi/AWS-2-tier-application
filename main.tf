@@ -128,7 +128,7 @@ resource "aws_db_instance" "demo_db" {
 # Launch Template
 resource "aws_launch_template" "demo_launch_template" {
   name          = "demo-launch-template"
-  image_id      = "ami-0c55b159cbfafe1f0"
+  image_id      = "ami-053b0d53c279acc90"
   instance_type = "t2.micro"
   key_name      = "my-key"
 
